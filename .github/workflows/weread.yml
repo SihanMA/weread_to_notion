@@ -3,7 +3,7 @@ name: weread sync
 on:
   workflow_dispatch:
   schedule:
-  # 没小时执行一次
+  # 每小时执行一次
     - cron: "0 * * * *"
 jobs:
   sync:
